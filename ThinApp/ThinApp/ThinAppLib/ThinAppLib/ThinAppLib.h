@@ -12,6 +12,7 @@
 #import "CC.h"
 #import "CD.h"
 #import "CE.h"
+#import "UIView+Test.h"
 
 //库中的C函数,会被调用
 void libFoo1();

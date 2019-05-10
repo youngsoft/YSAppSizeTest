@@ -13,7 +13,6 @@
 		2055F6C622824D200083C7BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2055F6C522824D200083C7BF /* Assets.xcassets */; };
 		2055F6C922824D200083C7BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2055F6C722824D200083C7BF /* LaunchScreen.storyboard */; };
 		2055F6CC22824D200083C7BF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2055F6CB22824D200083C7BF /* main.m */; };
-		2055F71022825F490083C7BF /* UIView+Test.m in Sources */ = {isa = PBXBuildFile; fileRef = 2055F70F22825F490083C7BF /* UIView+Test.m */; };
 		2055F71422825FDB0083C7BF /* libThinAppLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2055F6EC22824D4C0083C7BF /* libThinAppLib.a */; };
 /* End PBXBuildFile section */
 
@@ -46,8 +45,6 @@
 		2055F6CA22824D200083C7BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2055F6CB22824D200083C7BF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2055F6E722824D4B0083C7BF /* ThinAppLib.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ThinAppLib.xcodeproj; path = ThinAppLib/ThinAppLib.xcodeproj; sourceTree = "<group>"; };
-		2055F70E22825F490083C7BF /* UIView+Test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Test.h"; sourceTree = "<group>"; };
-		2055F70F22825F490083C7BF /* UIView+Test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Test.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,8 +79,6 @@
 		2055F6BB22824D1F0083C7BF /* ThinApp */ = {
 			isa = PBXGroup;
 			children = (
-				2055F70E22825F490083C7BF /* UIView+Test.h */,
-				2055F70F22825F490083C7BF /* UIView+Test.m */,
 				2055F6E722824D4B0083C7BF /* ThinAppLib.xcodeproj */,
 				2055F6BC22824D1F0083C7BF /* AppDelegate.h */,
 				2055F6BD22824D1F0083C7BF /* AppDelegate.m */,
@@ -200,7 +195,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2055F71022825F490083C7BF /* UIView+Test.m in Sources */,
 				2055F6C122824D1F0083C7BF /* ViewController.m in Sources */,
 				2055F6CC22824D200083C7BF /* main.m in Sources */,
 				2055F6BE22824D1F0083C7BF /* AppDelegate.m in Sources */,

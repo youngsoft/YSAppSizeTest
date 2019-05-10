@@ -16,3 +16,6 @@
 }
 
 @end
+
+
+void cat_UIView_Test_Impl(void){}

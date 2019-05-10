@@ -14,6 +14,7 @@
 		2055F70B22825E670083C7BF /* CB.m in Sources */ = {isa = PBXBuildFile; fileRef = 2055F70222825E670083C7BF /* CB.m */; };
 		2055F70C22825E670083C7BF /* CE.m in Sources */ = {isa = PBXBuildFile; fileRef = 2055F70322825E670083C7BF /* CE.m */; };
 		2055F70D22825E670083C7BF /* CA.m in Sources */ = {isa = PBXBuildFile; fileRef = 2055F70822825E670083C7BF /* CA.m */; };
+		2085EB1A228528C400E2C4D1 /* UIView+Test.m in Sources */ = {isa = PBXBuildFile; fileRef = 2085EB19228528C400E2C4D1 /* UIView+Test.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -43,6 +44,8 @@
 		2055F70622825E670083C7BF /* CE.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CE.h; sourceTree = "<group>"; };
 		2055F70722825E670083C7BF /* CD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CD.h; sourceTree = "<group>"; };
 		2055F70822825E670083C7BF /* CA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CA.m; sourceTree = "<group>"; };
+		2085EB18228528C400E2C4D1 /* UIView+Test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Test.h"; sourceTree = "<group>"; };
+		2085EB19228528C400E2C4D1 /* UIView+Test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Test.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +78,8 @@
 		2055F6DD22824D4B0083C7BF /* ThinAppLib */ = {
 			isa = PBXGroup;
 			children = (
+				2085EB18228528C400E2C4D1 /* UIView+Test.h */,
+				2085EB19228528C400E2C4D1 /* UIView+Test.m */,
 				2055F70422825E670083C7BF /* CA.h */,
 				2055F70822825E670083C7BF /* CA.m */,
 				2055F70522825E670083C7BF /* CB.h */,
@@ -147,6 +152,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2085EB1A228528C400E2C4D1 /* UIView+Test.m in Sources */,
 				2055F70B22825E670083C7BF /* CB.m in Sources */,
 				2055F70C22825E670083C7BF /* CE.m in Sources */,
 				2055F70A22825E670083C7BF /* CC.m in Sources */,

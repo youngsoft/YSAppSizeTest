@@ -7,7 +7,6 @@
 //
 
 #import "ViewController.h"
-#import "UIView+Test.h"
 #import "../ThinApp/ThinAppLib/ThinAppLib/ThinAppLib.h"
 
 
