@@ -3,7 +3,7 @@ Solution of reduce iOS application size(减少iOS应用程序尺寸的解决方�
 
 ---
 
-通过对静态库的正确使用，可以有效的减少应用程序包的尺寸，其原理是根据对静态库的编译和链接规则得出来的，详细的原理介绍请参考文章：[深入iOS系统底层之静态库介绍](https://www.jianshu.com/p/ef3415255808)。
+通过对静态库的正确使用，可以有效的减少应用程序包的尺寸，其原理是根据对静态库的编译和链接规则得出来的，详细的原理介绍请参考文章：[深入iOS系统底层之静态库介绍](https://juejin.im/post/5c63906ff265da2ddd4a3fc0)。
 
 在本例中的同一个Workspace中分别建立ThinApp和FatApp两个工程，这两个工程实现的功能是一样。在整个应用程序中分别定义了CA、CB、CC、CD、CE一共5个OC类，定义了一个UIView(Test)分类，还有定义了两个C函数：libFoo1和libFoo1。
 
